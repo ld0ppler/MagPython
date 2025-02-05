@@ -66,6 +66,9 @@ class View(tk.Frame):
 
         #------ BUTTONS ------
         self.buttons = Buttons_Frame(self.save_button_clicked, self.load_Button_Clicked, self.enter_new_mesabs)
+        
+        #------ MENU ------
+        # self.menu = 
 
         #------ ENTRIES ------
         self.entry_Header = Entry_Header()
@@ -1012,6 +1015,8 @@ class Buttons_Frame(tk.Frame):
         self.save_button = ttk.Button(self, text='ENREGISTRER', command = save_button_clicked, width = 24)
         self.load_button = ttk.Button(self, text='charger une mesabs', command = load_Button_Clicked, width = 24)
         self.new_button = ttk.Button(self, text='saisir une nouvelle mesabs', command = enter_new_mesabs, width = 24)
+        self.clear = ttk.Button(self, text='Clear', command = None, width = 24)
         self.save_button.grid(row=1, column=1)
         self.load_button.grid(row=3, column=1)
         self.new_button.grid(row=5, column=1)
+        self.clear.grid(row=7, column=1)

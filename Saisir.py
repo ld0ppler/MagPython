@@ -14,7 +14,7 @@
 """
 Iban FERNANDEZ, 2022, hivernage à Dumont d'Urville, TA72
 Script pour la saisie des données absolues magnétiques
-Ce scritp est un formulaire qui génère un fichier texte contenant les données au bon format.
+Ce script est un formulaire qui génère un fichier texte contenant les données au bon format.
 Ce script se base sur l'architecture logicielle Modèle-Vue-Controller (MVC)
 
 Modules :

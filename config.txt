@@ -1,8 +1,40 @@
 [Station_Configuration]
-Site = drv
+#Site = AIS
+#Correction_F = 0
+#Rotation_Angle = 0
+#Bearing_Azimuth = 44.5315
+#Mesabs_type = DIF
+#
+#Site = CCD
+#Correction_F = 0
+#Rotation_Angle = 0
+#Bearing_Azimuth = 44.5315
+#Mesabs_type = DIF
+#
+#Site = CRZF
+#Correction_F = 0
+#Rotation_Angle = 0
+#Bearing_Azimuth = 0
+#Mesabs_type = DIF
+#
+Site = DDU
 Correction_F = 50
 Rotation_Angle = 1.5
 Bearing_Azimuth = 44.5315
+Mesabs_type = XYZ
+#
+#Site = PAF
+#Correction_F = 0
+#Rotation_Angle = 0
+#Bearing_Azimuth = 44.5315
+#Mesabs_type = DIF
+#
+#Site = WEL
+#Correction_F = 0
+#Rotation_Angle = 0
+#Bearing_Azimuth = 44.5315
+#Mesabs_type = DIF
+#
 
 [Software_Configuration]
-Saving_Directory_Path = /home/petitstrum/Documents/01_Instrum/P139-Magne/Scripts/mesabs
+Saving_Directory_Path = /home/obseost/Depu_Luc/Magne/MagPython
